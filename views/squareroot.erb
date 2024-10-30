@@ -6,9 +6,10 @@
 
 <body>
 <form action="/square_root/new">
-  <label for="number">Enter a number</label>
-  <input id="number" placeholder="What number do you want to take the square root of?">
+  <label for="sqrt_input">Enter a number</label>
+  <input type="text" id="sqrt_input" name ="sqrt_input" placeholder="What number do you want to take the square root of?">
   <div><button>Calculate square</button></div>
 </form>
+<%= @sqrt %>
 </body>
 </html>
